@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('Welcome');
+})->name('home');
+
+Route::get('/contactez_nous',[App\Http\Controllers\UserController::class,'contactez_nous']);
+ Route::post('/subscription',[App\Http\Controllers\SubscriberController::class,'create'])->name('subscription');
+// Route::get('/test',[App\Http\Controllers\SubscriberController::class,'test'])->name('test');
+Route::post('/newsletter',[App\Http\Controllers\SubscriberController::class,'add_to_news_letter'])->name('newsletter');
+Route::post('/project',[App\Http\Controllers\DemandProjectController::class,'DemandProject'])->name('demande_project');
+
