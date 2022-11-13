@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Welcome');
+    return view('home');
 })->name('home');
 
 Route::get('/contactez_nous',[App\Http\Controllers\UserController::class,'contactez_nous']);
