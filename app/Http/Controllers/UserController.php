@@ -14,6 +14,7 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function contactez_nous(){
+        
         return view('Pages.contactez_nous');
     }
 
