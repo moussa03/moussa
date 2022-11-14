@@ -5,13 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {{-- <meta name="csrf-token" content="{{ csrf_token() }}" /> --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
         <title>développeur web en freelance  </title>
         <meta name="description" content="vous cherchez un développeur web en freelance ?mon équipe talentieux vous offrir une expreience de plus de 10 ans dans le création des site web et application web et mobile ">
-
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
         {{-- <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"> --}}
-
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
