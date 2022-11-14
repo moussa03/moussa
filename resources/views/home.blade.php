@@ -150,7 +150,7 @@
                 </a>
             </div>
             <div>
-                <x-navbar />
+                {{-- <x-navbar /> --}}
             </div>
             <div class="right-header">
             
