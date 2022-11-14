@@ -300,7 +300,7 @@
         </div>
     </div>
     <div class="social-media">
-       <x-social-media/>
+       {{-- <x-social-media/> --}}
     </div>
     </div>
     <div class="footer pt-8">

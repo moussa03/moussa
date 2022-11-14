@@ -851,7 +851,7 @@
     </div>
 </div>
 <div class="social-media">
-    <x-social-media/>
+    {{-- <x-social-media/> --}}
 </div> 
     
   
